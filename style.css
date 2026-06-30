@@ -1,1 +1,17 @@
 
+body{
+    background-color: #DB361A;
+    color:#FFC4D9
+}
+header{
+    background-color: black;
+    color: aliceblue;
+}
+section{
+    background-color: brown;
+    color: beige;
+}
+footer{
+background-color: darkturquoise;
+color: hsl(343, 51%, 52%);
+}
