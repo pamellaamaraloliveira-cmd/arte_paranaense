@@ -2,14 +2,49 @@
 body{
     background-color: #DB361A;
     color:#FFC4D9
+    font-family: Arial, sans-serif;
 }
 header{
     background-color: black;
     color: aliceblue;
+    text-align: center;
+    padding:30px;
+}
+h1{
+    font-size: 36px;
+}
+
+h2{
+    color:#DB361A
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+main {
+    width:80%;
+    margin:auto;
 }
 section{
     background-color: brown;
-    color: beige;
+    margin:20px 0;
+    padding:20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin auto;
+    border-radius: 12px;
+}
+figcaption {
+    text-align: center;
+    font-size 14px;
+    color:black
+    margin-top: 8px;
 }
 footer{
 background-color: darkturquoise;
