@@ -32,7 +32,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    background-color: hsl(343, 51%, 52%);
+    background-color: hwb(125 4% 73%);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -49,7 +49,7 @@ main {
 }
 
 section {
-    background-color: #f0715b;
+    background-color: hsl(123, 83%, 65%);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
