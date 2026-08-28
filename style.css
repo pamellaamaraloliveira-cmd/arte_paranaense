@@ -1,35 +1,57 @@
-
-body{
+body {
     background-color: #DB361A;
-    color:#FFC4D9
+    color: #FFC4D9;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
-header{
+
+header {
     background-color: black;
     color: aliceblue;
     text-align: center;
-    padding:30px;
+    padding: 30px;
 }
-h1{
+
+h1 {
     font-size: 36px;
 }
 
-h2{
-    color:#DB361A
+h2 {
+    color: #DB361A;
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
 }
-main {
-    width:80%;
-    margin:auto;
+
+nav {
+    margin-top: 20px;
 }
-section{
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: hsl(343, 51%, 52%);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
     background-color: brown;
-    margin:20px 0;
-    padding:20px;
+    margin: 20px 0;
+    padding: 20px;
     border-radius: 12px;
 }
 
@@ -37,16 +59,33 @@ img {
     width: 100%;
     max-width: 600px;
     display: block;
-    margin auto;
+    margin: auto;
     border-radius: 12px;
 }
+
 figcaption {
     text-align: center;
-    font-size 14px;
-    color:black
+    font-size: 14px;
+    color: black;
     margin-top: 8px;
 }
-footer{
-background-color: darkturquoise;
-color: hsl(343, 51%, 52%);
+
+.card {
+    background-color: azure;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid black;
+    border-radius: 10px;
+
+}
+
+card {
+    margin-top: 0;
+}
+footer {
+    background-color: darkturquoise;
+    color: hsl(343, 51%, 52%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
