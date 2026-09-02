@@ -83,8 +83,8 @@ figcaption {
     margin-top: 0;
 }
 footer {
-    background-color: #f0f5f5;
-    color: hwb(0 2% 29%);
+    background-color: hsl(145, 100%, 23%);
+    color: lab(94.6% 0.67 0.23);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
