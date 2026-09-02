@@ -49,7 +49,7 @@ main {
 }
 
 section {
-    background-color: hsl(123, 83%, 65%);
+    background-color: hwb(231 0% 3%);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
