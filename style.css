@@ -1,6 +1,6 @@
 body {
     background-color: #f1f4f5;
-    color: hwb(152 77% 0%);
+    color: lab(0% 0 0);
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -32,7 +32,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    background-color: hwb(125 4% 73%);
+    background-color: lab(46.56% 72.39 60.74);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -49,7 +49,7 @@ main {
 }
 
 section {
-    background-color: lch(51.76% 54.93 27.4);
+    background-color: oklab(97.69% 0.00102 0.0002);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
