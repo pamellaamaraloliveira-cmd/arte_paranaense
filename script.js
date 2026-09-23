@@ -12,4 +12,4 @@ botoesCurtir.forEach (function(botaoCurtir){
             curtiu = false;
         }
     }
-})
+});
