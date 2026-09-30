@@ -1,13 +1,26 @@
+:root{
+    background-color:;
+    --cor-fundo:white;
+    --cor-texto:lab(0% 0 0);
+    --cor-principal:#0c0c0c;
+    --cor-secundaria: black;
+    --cor-card:;
+    --cor-superficie:oklab(97.69% 0.00102 0.0002);
+    --cor-rodape:;
+    --cor-clara:white;
+    --cor-legenda:black;
+}
+
 body {
-    background-color: #f1f4f5;
-    color: lab(0% 0 0);
+    background-color: var(--cor-fundo)
+    color: var(var(--cor-texto));
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #0c0c0c;
+    color: var(--cor-principal);
 }
 
 p {
@@ -30,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: lab(46.56% 72.39 60.74);
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: var(--cor-secundaria);
 }
 
 main {
@@ -49,7 +62,7 @@ main {
 }
 
 section {
-    background-color: oklab(97.69% 0.00102 0.0002);
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -66,7 +79,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: black;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
@@ -88,4 +101,22 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: #0c0c0c;
+    color:#f1f4f5;
+    border: none;
+    padding:10px 15px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.curtir{
+    display: block;
+    width: fit
 }
