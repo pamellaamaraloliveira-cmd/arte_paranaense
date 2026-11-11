@@ -1,6 +1,6 @@
 :root{
     background-color:;
-    --cor-fundo:white;
+    --cor-fundo:#ee0000;
     --cor-texto:lab(0% 0 0);
     --cor-principal:#0c0c0c;
     --cor-secundaria: black;
@@ -10,7 +10,13 @@
     --cor-clara:white;
     --cor-legenda:black;
 }
-
+.tema-escuro{
+     --cor-fundo:black;
+     --cor-texto:white;
+     --cor-principal:red;
+     --cor-superficie:black;
+     --cor-card:#ce1414;
+}
 body {
     background-color: var(--cor-fundo)
     color: var(var(--cor-texto));
@@ -118,5 +124,26 @@ button:hover {
 
 .curtir{
     display: block;
-    width: fit
+    width: fit-content;
+    margin:20px auto;
+}
+.galeria{
+    display:flex;
+    gap: 20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.card-curiosidades{
+    display:flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn-tema{
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
 }
