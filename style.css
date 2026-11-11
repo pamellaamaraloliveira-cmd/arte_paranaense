@@ -4,7 +4,8 @@
     --cor-texto:lab(0% 0 0);
     --cor-principal:#0c0c0c;
     --cor-secundaria: black;
-    --cor-card:;
+    --cor-hover:red;
+    --cor-card:pink;
     --cor-superficie:oklab(97.69% 0.00102 0.0002);
     --cor-rodape:;
     --cor-clara:white;
@@ -19,7 +20,7 @@
 }
 body {
     background-color: var(--cor-fundo)
-    color: var(var(--cor-texto));
+    color:var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -59,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-hover);
 }
 
 main {
@@ -90,28 +91,28 @@ figcaption {
 }
 
 .card {
-    background-color: azure;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid black;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
 
 }
 
-.card {
+.card h3 {
     margin-top: 0;
 }
 footer {
-    background-color: hwb(0 68% 2%);
-    color: lab(94.6% 0.67 0.23);
+    background-color: var(--cor-rodape);
+    color:var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color: #0c0c0c;
-    color:#f1f4f5;
+    background-color: var(--cor-principal);
+    color:var(--cor-clara);
     border: none;
     padding:10px 15px;
     border-radius: 8px;
@@ -119,7 +120,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-hover);
 }
 
 .curtir{
