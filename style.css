@@ -1,10 +1,10 @@
 :root{
     background-color:;
-    --cor-fundo:#ee0000;
+    --cor-fundo:hsl(0, 100%, 50%);
     --cor-texto:lab(0% 0 0);
     --cor-principal:#0c0c0c;
     --cor-secundaria: black;
-    --cor-hover:red;
+    --cor-hover:rgb(255, 0, 0);
     --cor-card:pink;
     --cor-superficie:oklab(97.69% 0.00102 0.0002);
     --cor-rodape:;
